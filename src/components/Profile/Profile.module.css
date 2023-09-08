@@ -10,8 +10,8 @@
 }
 
 .description {
-    background-color: #ffffff;
-    width: 249px;
+    background-color: var(--color-white);
+    width: 250px;
     height: 256px;
     display: flex;
     flex-flow: column;
@@ -19,6 +19,7 @@
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    border-radius: 3px 3px 0 0; 
 }
 
 .avatar {
@@ -36,13 +37,47 @@
 .tag,
 .location {
     font-size: 16px;
-    color: #a1abb6;
+    color: var(--color-secondary-text);
     margin-top: 10px;
 
 }
 
-p {
+p,
+ul {
     margin: 0px;
 }
 
+
+
+.stats {
+    width: 250px;
+    height: 75px;
+    border-radius: 0 0 3px 3px;
+    background-color: #f3f6f9;
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content:space-around;
+}
+
+.stats li {
+    border: 1px solid #e4e9f0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+}
+
+.label {
+    font-size: 12px;
+    text-align: center;
+    color: var(--color-secondary-text);
+}
+
+.quantity {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+}
 
