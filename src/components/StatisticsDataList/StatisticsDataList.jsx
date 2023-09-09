@@ -1,9 +1,9 @@
 import { StatisticsDataItem } from 'components/StatisticsDataItem/StatisticsDataItem';
-// import css from './StatisticsDataList.module.css';
+import css from './StatisticsDataList.module.css';
 
 export const StatisticsDataList = ({stats}) => {
     return (
-        <ul class="stat-list">
+        <ul className={css.statList}>
             {stats.map(({id, label, percentage})=> (
                  <StatisticsDataItem 
                  id={id}
