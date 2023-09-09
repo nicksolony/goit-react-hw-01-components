@@ -1,4 +1,5 @@
 import { Profile } from "./Profile/Profile";
+import { Statistics } from "./Statistics/Statistics";
 
 import user from '../data/user.json';
 
@@ -16,6 +17,8 @@ export const App = () => {
       }}
     >
       <Profile user={user}/>
+      <Statistics />
+
     </div>
   );
 };
