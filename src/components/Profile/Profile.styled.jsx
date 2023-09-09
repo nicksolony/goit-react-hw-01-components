@@ -8,7 +8,6 @@ export const ProfileContainer = styled.div `
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 45px;
 `;
 
 export const Description = styled.div `
@@ -33,20 +32,14 @@ export const Avatar = styled.img `
 export const Name = styled.p `
     font-size: 18px;
     font-weight: 700;
-    margin-top: 30px;
+    margin: 30px 0 0 0;
 `;
 
 export const Info = styled.p `
     font-size: 16px;
     color: var(--color-secondary-text);
-    margin-top: 10px;
+    margin: 10px 0 0 0;
 `;
-
-// p,
-// ul {
-//     margin: 0px;
-// }
-
 
 
 export const Stats = styled.ul `
@@ -58,6 +51,7 @@ export const Stats = styled.ul `
     padding-left: 0;
     display: flex;
     justify-content:space-around;
+    margin:0px;
 `;
 
 export const StatsItem = styled.li `
