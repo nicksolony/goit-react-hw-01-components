@@ -1,4 +1,6 @@
-.title {
+import styled from '@emotion/styled';
+
+export const Title = styled.h2 `
     background-color: var(--color-white);
     width: 100%;
     text-align: center;
@@ -7,4 +9,5 @@
     font-size: 18px;
     text-transform: uppercase;
     margin: 0px;
-}
+    color: var(--color-secondary-text);
+`;

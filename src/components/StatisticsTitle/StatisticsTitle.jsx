@@ -1,11 +1,11 @@
-import css from './StatisticsTitle.module.css';
+import { Title } from "./StatisticsTitle.styled";
 
 
 export const StatisticsTitle = ({title}) => {
 
     if (title) {
         return (
-            <h2 className={css.title}>{title}</h2>
+            <Title>{title}</Title>
         )
     };
 
