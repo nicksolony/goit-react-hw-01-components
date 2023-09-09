@@ -1,5 +1,5 @@
 import { StatisticsDataItem } from 'components/StatisticsDataItem/StatisticsDataItem';
-import css from './StatisticsDataList.module.css';
+// import css from './StatisticsDataList.module.css';
 
 export const StatisticsDataList = ({stats}) => {
     return (

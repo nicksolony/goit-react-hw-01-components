@@ -1,4 +1,4 @@
-import css from './StatisticsDataItem.module.css';
+// import css from './StatisticsDataItem.module.css';
 
 export const StatisticsDataItem = ({id, label, percentage}) => {
     return (

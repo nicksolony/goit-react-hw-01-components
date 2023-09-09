@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { StatisticsTitle } from 'components/StatisticsTitle/StatisticsTitle';
 import { StatisticsDataList } from 'components/StatisticsDataList/StatisticsDataList';
-import css from './Statistics.module.css';
+// import css from './Statistics.module.css';
 
 export const Statistics = ({title, stats}) => {
     return (
