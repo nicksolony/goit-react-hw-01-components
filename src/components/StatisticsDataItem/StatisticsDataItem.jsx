@@ -1,10 +1,10 @@
-// import css from './StatisticsDataItem.module.css';
+import { Item, Label, Percentage} from './StatisticsDataItem.styled';
 
 export const StatisticsDataItem = ({id, label, percentage}) => {
     return (
-        <li key="{id}" class="item" >
-            <span class="label">{label}</span>
-            <span class="percentage">{percentage}%</span>
-        </li>
+        <Item key="{id}">
+            <Label>{label}</Label>
+            <Percentage >{percentage}%</Percentage>
+        </Item>
     )
 };
