@@ -4,7 +4,6 @@ import { StatisticsDataList } from 'components/StatisticsDataList/StatisticsData
 import css from './Statistics.module.css';
 
 export const Statistics = ({title, stats}) => {
-    console.log(stats, title);
     return (
         <section class="statistics">
           {<StatisticsTitle title={title}/>}
