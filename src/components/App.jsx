@@ -2,6 +2,7 @@ import { Profile } from "./Profile/Profile";
 import { Statistics } from "./Statistics/Statistics";
 
 import user from '../data/user.json';
+import stats from '../data/statistics.json';
 
 
 export const App = () => {
@@ -18,7 +19,7 @@ export const App = () => {
       }}
     >
       <Profile user={user}/>
-      <Statistics />
+      <Statistics stats={stats}/>
 
     </div>
   );

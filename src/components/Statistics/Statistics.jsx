@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 
-export const Statistics = () =>
+export const Statistics = ({stats}) =>
 {
+    console.log(stats);
     return (
         <section class="statistics">
           <h2 class="title">Upload stats</h2>
-            
+
           <ul class="stat-list">
             <li class="item">
               <span class="label">.docx</span>
