@@ -1,8 +1,7 @@
 .statistics {
-    width: 428px;
+    width: 328px;
     text-align: center;
     background-color: #e7ecf2;
     margin-top: 10px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 60px 50px;
 }
