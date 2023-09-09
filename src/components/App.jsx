@@ -20,6 +20,7 @@ export const App = () => {
     >
       <Profile user={user}/>
       <Statistics stats={stats}/>
+      {/* <Statistics title="Upload stats" stats={stats} /> */}
 
     </div>
   );

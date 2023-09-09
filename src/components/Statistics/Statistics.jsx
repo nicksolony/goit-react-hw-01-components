@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
+import { StatisticsTitle } from 'components/StatisticsTitle/StatisticsTitle';
 import css from './Statistics.module.css';
 
-export const Statistics = ({title, stats}) =>
-{
+export const Statistics = ({title, stats}) => {
     console.log(stats, title);
     return (
         <section class="statistics">
-          <h2 class="title">Upload stats</h2>
+          {<StatisticsTitle title={title}/>}
 
           <ul class="stat-list">
             <li class="item">
@@ -28,4 +28,14 @@ export const Statistics = ({title, stats}) =>
           </ul>
         </section>
     )
-}
+};
+
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.arrayOf(
+    PropTypes.exact({
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
+    })
+  )
+};
