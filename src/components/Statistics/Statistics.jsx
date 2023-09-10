@@ -1,12 +1,11 @@
 import PropTypes from 'prop-types';
-import { StatisticsTitle } from 'components/StatisticsTitle/StatisticsTitle';
 import { StatisticsDataList } from 'components/StatisticsDataList/StatisticsDataList';
-import { StatisticsSection } from './Statistics.styled';
+import { StatisticsSection, Title } from './Statistics.styled';
 
 export const Statistics = ({title, stats}) => {
     return (
         <StatisticsSection>
-          {<StatisticsTitle title={title}/>}
+          {title && <Title>{title}</Title>}
           {<StatisticsDataList stats={stats}/>}
         </StatisticsSection>
     )
