@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import { TransactionHistoryTable } from "components/TransactionHistory/TransactionHistory.styled";
 
 export const TransactionItemRow = styled.tr `
     :nth-of-type(even) {
